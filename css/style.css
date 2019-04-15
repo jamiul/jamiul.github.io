@@ -98,8 +98,10 @@ nav ul li a:active{
     color: #fff;
     overflow: hidden;
     position: relative;
+    width: 100%;
 }
 .overlay{
+    position: relative;
     width: 100%;
     height: 100%;
     top: 0px;
@@ -194,4 +196,8 @@ ul.admin-profile li {
 .profile-wrapper .btn i {
     vertical-align: middle;
     margin-right: 5px;
+}
+.mean-container .mean-nav ul {
+    position: absolute !important;
+    background: black !important;
 }
