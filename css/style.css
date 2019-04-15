@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700");
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: #666;
+    line-height: 25px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.script-font {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+a {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a a:focus {
+    outline: none;
+}
+
+p {
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0px;
+    font-size: 14px;
+}
+
+ul, ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li, ol li {
+    list-style: none;
+}
+
+
+/* Nav section */
+.my-nav{
+    background: #fff;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    padding: 15px 25px;
+    list-style-type: none;
+}
+nav ul li a{
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 40px;
+    cursor: pointer;
+}
+nav ul li a:active{
+    color: blue;
+}
+
+/* Banner section */
+
+.banner-img{
+    background: url(../img/porfolio.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #0c0808;
+    opacity: 0.6;
+}
+.contents{
+    padding: 175px 0px 120px;
+}
+.contents h5 {
+    font-size: 50px;
+}
+.contents .content-name{
+    color: #fff;
+    font-size: 80px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contents p {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.social-icon li{
+    display: inline-block;
+}
+.social-icon li a {
+    color: #000;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    display: block;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 16px;
+    margin: 15px 6px 12px 6px;
+    text-decoration: none;
+}
+.social-icon li a:hover {
+    background: #00b4d9;
+}
+.contents .btn {
+    margin: 25px 0px;
+    text-transform: uppercase;
+}
+/* Profile section */
+.about img {
+    border: 8px solid #fff;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.profile-wrapper {
+    padding: 45px 0;
+}
+.about-profile .pro-title {
+    font-weight: 700;
+    color: #040404;
+    position: relative;
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.about-profile .pro-title:after {
+    position: absolute;
+    content: ':';
+    color: #040404;
+    font-size: 14px;
+    left: 77px;
+}
+ul.admin-profile li {
+    list-style: none;
+}
+.section-padding {
+    padding: 60px 0;
+}
+.profile-wrapper .btn {
+    margin: 10px 10px 0px 0px;
+}
+.btn {
+    font-size: 14px;
+    padding: 10px 30px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.profile-wrapper .btn i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
