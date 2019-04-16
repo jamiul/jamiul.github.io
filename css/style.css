@@ -8,15 +8,9 @@ body {
     font-size: 14px;
     font-weight: 400;
     font-family: "Source Sans Pro", sans-serif;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-font-smoothing: subpixel-antialiased;
     color: #666;
     line-height: 25px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -29,15 +23,9 @@ h1, h2, h3, h4 {
     font-family: 'Shadows Into Light', cursive;
 }
 
-a {
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-}
-
 a:hover {
     text-decoration: none;
+    color: orange;
 }
 
 a a:focus {
@@ -63,6 +51,11 @@ ul li, ol li {
 
 
 /* Nav section */
+.header-logo {
+    position: fixed;
+    z-index: 12000;
+    margin-top: 10px;
+}
 .my-nav{
     background: #fff;
 }
@@ -75,7 +68,6 @@ nav ul li {
     list-style-type: none;
 }
 nav ul li a{
-    font-size: 13px;
     font-weight: 700;
     color: black;
     text-transform: uppercase;
@@ -87,7 +79,7 @@ nav ul li a{
     cursor: pointer;
 }
 nav ul li a:active{
-    color: blue;
+    color: orange;
 }
 
 /* Banner section */
@@ -200,4 +192,59 @@ ul.admin-profile li {
 .mean-container .mean-nav ul {
     position: absolute !important;
     background: black !important;
+}
+
+/* Contact-form section */
+.contact-form {
+    background: #fff;
+    box-shadow: 0 0 30px #ededed;
+    padding: 60px 40px;
+}
+
+.contact-form h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.my-form{
+    margin-top: 30px;
+}
+.right-contact {
+    padding: 4px;
+    border: 1px solid #e1e1e1;
+    margin-top: 30px;
+}
+.right-contact .single-contact p {
+    margin-bottom: 5px;
+}
+.right-contact .single-contact p a {
+    color: #666;
+}
+.right-contact .single-contact {
+    margin: 10px 22px;
+    padding: 3px 55px;
+    position: relative;
+    color: #666;
+}
+.right-contact .contact-icon {
+    background: #00b4d9;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 40px;
+    left: 0;
+    padding-top: 8px;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 40px;
+}
+
+/* Contact-form section */
+footer {
+    background: black;
+}
+.footer-text p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #fff;
 }
