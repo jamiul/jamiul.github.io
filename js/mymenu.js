@@ -2,7 +2,7 @@
     "use strict";
     var $ = jQuery;
     $('header nav').meanmenu({
-        meanScreenWidth: "2400",
+        meanScreenWidth: "768",
         meanRevealPosition: "left",
     });
 
